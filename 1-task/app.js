@@ -84,11 +84,15 @@ function taskFour() {
         alert("5-ga bo'linadi 😃")
     }else if(a % 3 === 0){
         alert("3-ga bo'linadi 😃")
+    }else{
+        alert("son 3 va 5 ga ham bo'linmaydi 😭")
     }
     console.log(a % 3);
     console.log(a % 5);
 }
 
+console.log(8 % 3);
+console.log(18 % 3);
 
 
 
